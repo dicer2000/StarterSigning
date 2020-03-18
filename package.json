@@ -1,8 +1,8 @@
 {
-  "name": "webrtc-video-conference-tutorial",
+  "name": "starter-web-signing-project",
   "version": "1.0.0",
-  "description": "This tutorial is divided in three versions:",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/agilityfeat/webrtc-video-conference-tutorial/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/agilityfeat/webrtc-video-conference-tutorial#readme",
+  "homepage": "http://StarterData.com",
   "dependencies": {
     "express": "^4.17.1",
     "kurento-client": "^6.9.0",
