@@ -93,17 +93,35 @@
         </div>
         -->
 
-        <div>
-          <br />
-          <div id="roomSelection" style="display: block">
-            <label>Your Full Name:</label>
-            <input id="name" type="text" />
-            <br />
-            <label>Signing Room:</label>
-            <input id="room" type="text" />
-            <button id="register">Enter</button>
-          </div>
-        </div>
+
+<!-- Text input-->
+<br />
+<div id="roomSelection" style="display: block">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Full Name</label>  
+  <div class="col-md-4">
+  <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="room">Signing Room</label>  
+  <div class="col-md-5">
+  <input id="room" name="room" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="register"></label>
+  <div class="col-md-4">
+    <button id="register" name="register" class="btn btn-primary">Login</button>
+  </div>
+</div>
+</div>
 
         <canvas class="my-4 w-100" id="myChart" width="900" height="380" style="border: 1px black solid"></canvas>
 

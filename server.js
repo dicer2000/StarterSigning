@@ -15,8 +15,8 @@ var argv = minimist(process.argv.slice(2), {
     default: {
 //        as_uri: 'http://localhost:3000/',
         as_uri: 'http://ec2-52-8-116-220.us-west-1.compute.amazonaws.com:3000/',
-//        ws_uri: 'ws://ec2-18-144-170-246.us-west-1.compute.amazonaws.com:8888/kurento'
-        ws_uri: 'ws://172.31.5.95:8888/kurento'
+        ws_uri: 'ws://ec2-18-144-170-246.us-west-1.compute.amazonaws.com:8888/kurento'
+//        ws_uri: 'ws://172.31.5.95:8888/kurento'
     }
 });
 
