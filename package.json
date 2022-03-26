@@ -10,7 +10,7 @@
     "express": "^4.17.1",
     "kurento-client": "^6.13.0",
     "socket.io": "^2.3.0",
-    "minimist": "1.2.0"
+    "minimist": "1.2.6"
   },
   "devDependencies": {},
   "scripts": {
